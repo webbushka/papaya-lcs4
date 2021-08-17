@@ -1,0 +1,21 @@
+@import url(./__title-container/header__title-container.css);
+@import url(./__edit/header__edit.css);
+@import url(./__title/header__title.css);
+@import url(./__subtitle/header__subtitle.css);
+@import url(./__add-todo/header__add-todo.css);
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+@media screen and (min-width: 550px) {
+  .header {
+    flex-direction: row;
+    gap: none;
+  }
+}

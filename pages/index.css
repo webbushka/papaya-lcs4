@@ -1,0 +1,18 @@
+/* vendor */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+/* page */
+@import url(../blocks/page/page.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+
+/* content */
+@import url(../blocks/content/content.css);
+@import url(../blocks/todos/todos.css);
+@import url(../blocks/todo/todo.css);
+@import url(../blocks/btn/btn.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);

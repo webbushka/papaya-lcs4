@@ -1,0 +1,10 @@
+.todos {
+  max-width: 550px;
+  max-height: calc(100vh - 210px);
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 5px 5px 10px rgba(20, 20, 20, 0.5);
+  background: #4e4e4e;
+  overflow: scroll;
+}

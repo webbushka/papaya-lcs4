@@ -1,0 +1,28 @@
+.todo__label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.todo__title{
+  padding-left: 40px;
+  height: 25px;
+  line-height: 25px;
+  background-image: url(../../images/checkbox.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.todo__toggle {
+  display: none;
+}
+
+.todo__toggle:checked + .todo__title {
+  background-position: 0 -25px;
+  text-decoration: line-through;
+}
+
+.todo {
+  padding: 8px 0;
+  font-size: 1.8rem;
+}
