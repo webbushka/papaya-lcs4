@@ -4,6 +4,7 @@
 
 /* page */
 @import url(../blocks/page/page.css);
+@import url(../blocks/btn/btn.css);
 
 /* header */
 @import url(../blocks/header/header.css);
@@ -12,7 +13,10 @@
 @import url(../blocks/content/content.css);
 @import url(../blocks/todos/todos.css);
 @import url(../blocks/todo/todo.css);
-@import url(../blocks/btn/btn.css);
+
+/* modal */
+@import url(../blocks/modal/modal.css);
+@import url(../blocks/form/form.css);
 
 /* footer */
 @import url(../blocks/footer/footer.css);
